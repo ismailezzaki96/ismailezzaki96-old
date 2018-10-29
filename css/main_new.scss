@@ -1,0 +1,359 @@
+// ----------------------------------------------------------------------
+//  Color palette
+//
+$palette-white: #ffffff;
+$palette-blue: #3498DB;
+//$palette-black: #34495E;
+$palette-black: #222222;
+$palette-dark-black: #2C3E50;
+$palette-real-black: #0a0a0a;
+$palette-blue-transparent: rgba(52, 152, 219, 0.96);
+$palette-black-transparent: rgba(11, 11, 11, 0.8);
+$palette-gray: #BDC3C7;
+
+
+// ----------------------------------------------------------------------
+//  Sizes
+//
+$icon-size: 50px;
+
+
+// ----------------------------------------------------------------------
+//  Header
+//
+header {
+  background-color: $palette-blue;
+  color: $palette-white;
+  padding-top: 80px;
+  padding-bottom: 40px;
+}
+
+h1 {
+  strong {
+    font-size: 50%;
+    font-weight: normal;
+  }
+}
+
+
+// ----------------------------------------------------------------------
+// Nav icons
+//
+#icons {
+  background-color: $palette-blue;
+}
+
+.icon-wrapper {
+  //width: 20%;
+  margin: 0 auto;
+  cursor: pointer;
+  h5 {
+    width: $icon-size;
+    text-align: center;
+  }
+}
+
+.icon {
+  height: $icon-size;
+  width: $icon-size;
+  z-index: 1;
+}
+
+.nav-wrapper {
+  width: 100%;
+  text-align: center;
+}
+
+.nav-wrapper ul {
+  display: inline-block;
+}
+
+
+// Borrowed from Skeleton page
+
+.navbar {
+  display: none;
+}
+
+.navbar-small {
+  width: 100%;
+  background: $palette-blue;
+  color: $palette-white;
+  z-index: 99;
+}
+.navbar-link, .navbar-link:hover {
+  text-decoration: none;
+  color: $palette-white;
+}
+.navbar-link.active {
+  color: $palette-white;
+}
+
+@media (min-width: 550px) {
+  .navbar-small {
+    display: none;
+  }
+}
+
+/* Larger than phone */
+@media (min-width: 550px) {
+  /* Navbar */
+  .navbar,
+  .navbar-spacer {
+    display: block;
+    width: 100%;
+    height: 5.5rem;
+    background: $palette-blue;
+    color: $palette-white;
+    z-index: 99;
+  }
+  .navbar-spacer {
+    display: none;
+  }
+  .navbar-list {
+    list-style: none;
+    margin-bottom: 0;
+  }
+  .navbar-item {
+    position: relative;
+    float: left;
+    padding-top: 15px;
+    padding-right: 20px;
+    margin-bottom: 0;
+    cursor: pointer;
+  }
+  .navbar-link a {
+    text-decoration: none;
+    color: $palette-white;
+  }
+  .navbar-link.active, .navbar-link:hover {
+    color: $palette-white;
+  }
+  .has-docked-nav .navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+  }
+  .has-docked-nav .navbar-spacer {
+    display: block;
+  }
+  /* Re-overiding the width 100% declaration to match size of % based container */
+  .has-docked-nav .navbar > .container {
+    width: 80%;
+  }
+}
+
+
+// ----------------------------------------------------------------------
+// Spinner lazy loading
+//
+
+.spinner {
+  display: block;
+  margin: 40px auto;
+  height: 80px;
+  width: 80px;
+}
+
+.thumbnail-wrapper {
+  width: 100%;
+}
+
+
+// ----------------------------------------------------------------------
+// Special image sizes
+//
+
+.thumbnail {
+  margin-top: 5%;
+  padding: 25% 0;
+}
+
+#thumbnail-ade {
+  margin-top: 5%;
+  padding: 0 15%;
+}
+
+#thumbnail-qchem, #thumbnail-cassandra {
+  margin-top: 5%;
+  padding: 5% 0;
+}
+
+#thumbnail-genetic {
+  margin-top: 10%;
+  padding: 0 10%;
+}
+
+#thumbnail-scaling {
+  margin-top: 15%;
+  padding: 0% 5%;
+}
+
+
+
+// ----------------------------------------------------------------------
+// Footer
+//
+
+footer {
+  background-color: $palette-blue;
+  height: 100%;
+  margin-top: 40px;
+  padding-top: 100px;
+  padding-bottom: 60px;
+}
+
+.footnote {
+  padding: 10px 0;
+  font-size: smaller;
+  color: $palette-white;
+}
+
+
+// ----------------------------------------------------------------------
+// Links
+//
+
+a.blue, a.blue:visited, a.blue:active {
+  color: $palette-blue;
+  text-decoration: none;
+}
+a.blue:hover {
+  color: $palette-black;
+}
+
+.link, .link:visited, .link:active {
+  color: $palette-blue;
+  text-decoration: underline;
+}
+.link:hover {
+  text-decoration: underline;
+  color: $palette-black;
+}
+
+article p {
+  a, a:visited, a:active {
+    color: $palette-blue;
+    text-decoration: underline;
+  }
+  a:hover {
+    color: $palette-black;
+    text-decoration: underline;
+  }
+}
+
+
+// ----------------------------------------------------------------------
+// Buttons
+//
+
+button {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  color: $palette-blue;
+  border-color: $palette-blue;
+  //text-transform: lowercase;
+}
+
+button.small-button {
+  display: inline-block;
+  padding: 0 10px;
+  margin: 0;
+  float: none;
+  height: 20px;
+  line-height: 20px;
+}
+
+button.blog-button {
+  //margin-top: -40px;
+  margin-bottom: 50px;
+}
+
+
+// ----------------------------------------------------------------------
+// Flask animation
+//
+
+#flask {
+  cursor: pointer;
+}
+
+.tip {
+  -webkit-animation:tip 1s ease;
+  -moz-animation:tip 1s ease;
+  animation:tip 1s ease;
+}
+@-moz-keyframes tip {
+  50% { -moz-transform: rotate(80deg); }
+  100% { -moz-transform: rotate(0deg); }
+}
+@-webkit-keyframes tip {
+  50% { -webkit-transform: rotate(80deg); }
+  100% { -webkit-transform: rotate(0deg); }
+}
+@keyframes tip {
+  50% { -webkit-transform: rotate(80deg); transform:rotate(80deg); }
+  100% { -webkit-transform: rotate(0deg); transform:rotate(0deg); }
+}
+
+
+// ----------------------------------------------------------------------
+// Miscellaneous
+//
+
+h2 {
+  text-align: center;
+  color: $palette-blue;
+  margin-top: 200px;
+}
+
+.section-title {
+  text-align: center;
+  color: $palette-blue;
+  margin-top: 40px;
+}
+
+.line {
+  margin: -20px 0 20px 0;
+  height: 1px;
+  width: 100%;
+  background-color: $palette-blue;
+}
+.line-close {
+  margin-top: 20px;
+  height: 1px;
+  width: 100%;
+  background-color: $palette-blue;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.spacer {
+  height: 20px;
+}
+
+.spacer-big {
+  height: 100px;
+}
+
+.hidden {
+  display: none;
+}
+
+.underline {
+  text-decoration: underline;
+  color: $palette-blue;
+}
+.italic { font-style: italic; }
+.justify { text-align: justify; }
+
+

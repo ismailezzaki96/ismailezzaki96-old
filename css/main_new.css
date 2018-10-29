@@ -1,0 +1,252 @@
+header {
+  background-color: #3498DB;
+  color: #ffffff;
+  padding-top: 80px;
+  padding-bottom: 40px; }
+
+h1 strong {
+  font-size: 50%;
+  font-weight: normal; }
+
+#icons {
+  background-color: #3498DB; }
+
+.icon-wrapper {
+  margin: 0 auto;
+  cursor: pointer; }
+  .icon-wrapper h5 {
+    width: 50px;
+    text-align: center; }
+
+.icon {
+  height: 50px;
+  width: 50px;
+  z-index: 1; }
+
+.nav-wrapper {
+  width: 100%;
+  text-align: center; }
+
+.nav-wrapper ul {
+  display: inline-block; }
+
+.navbar {
+  display: none; }
+
+.navbar-small {
+  width: 100%;
+  background: #3498DB;
+  color: #ffffff;
+  z-index: 99; }
+
+.navbar-link, .navbar-link:hover {
+  text-decoration: none;
+  color: #ffffff; }
+
+.navbar-link.active {
+  color: #ffffff; }
+
+@media (min-width: 550px) {
+  .navbar-small {
+    display: none; } }
+/* Larger than phone */
+@media (min-width: 550px) {
+  /* Navbar */
+  .navbar,
+  .navbar-spacer {
+    display: block;
+    width: 100%;
+    height: 5.5rem;
+    background: #3498DB;
+    color: #ffffff;
+    z-index: 99; }
+
+  .navbar-spacer {
+    display: none; }
+
+  .navbar-list {
+    list-style: none;
+    margin-bottom: 0; }
+
+  .navbar-item {
+    position: relative;
+    float: left;
+    padding-top: 15px;
+    padding-right: 20px;
+    margin-bottom: 0;
+    cursor: pointer; }
+
+  .navbar-link a {
+    text-decoration: none;
+    color: #ffffff; }
+
+  .navbar-link.active, .navbar-link:hover {
+    color: #ffffff; }
+
+  .has-docked-nav .navbar {
+    position: fixed;
+    top: 0;
+    left: 0; }
+
+  .has-docked-nav .navbar-spacer {
+    display: block; }
+
+  /* Re-overiding the width 100% declaration to match size of % based container */
+  .has-docked-nav .navbar > .container {
+    width: 80%; } }
+.spinner {
+  display: block;
+  margin: 40px auto;
+  height: 80px;
+  width: 80px; }
+
+.thumbnail-wrapper {
+  width: 100%; }
+
+.thumbnail {
+  margin-top: 5%;
+  padding: 25% 0; }
+
+#thumbnail-ade {
+  margin-top: 5%;
+  padding: 0 15%; }
+
+#thumbnail-qchem, #thumbnail-cassandra {
+  margin-top: 5%;
+  padding: 5% 0; }
+
+#thumbnail-genetic {
+  margin-top: 10%;
+  padding: 0 10%; }
+
+#thumbnail-scaling {
+  margin-top: 15%;
+  padding: 0% 5%; }
+
+footer {
+  background-color: #3498DB;
+  height: 100%;
+  margin-top: 40px;
+  padding-top: 100px;
+  padding-bottom: 60px; }
+
+.footnote {
+  padding: 10px 0;
+  font-size: smaller;
+  color: #ffffff; }
+
+a.blue, a.blue:visited, a.blue:active {
+  color: #3498DB;
+  text-decoration: none; }
+
+a.blue:hover {
+  color: #222222; }
+
+.link, .link:visited, .link:active {
+  color: #3498DB;
+  text-decoration: underline; }
+
+.link:hover {
+  text-decoration: underline;
+  color: #222222; }
+
+article p a, article p a:visited, article p a:active {
+  color: #3498DB;
+  text-decoration: underline; }
+article p a:hover {
+  color: #222222;
+  text-decoration: underline; }
+
+button {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  color: #3498DB;
+  border-color: #3498DB; }
+
+button.small-button {
+  display: inline-block;
+  padding: 0 10px;
+  margin: 0;
+  float: none;
+  height: 20px;
+  line-height: 20px; }
+
+button.blog-button {
+  margin-bottom: 50px; }
+
+#flask {
+  cursor: pointer; }
+
+.tip {
+  -webkit-animation: tip 1s ease;
+  -moz-animation: tip 1s ease;
+  animation: tip 1s ease; }
+
+@-moz-keyframes tip {
+  50% {
+    -moz-transform: rotate(80deg); }
+  100% {
+    -moz-transform: rotate(0deg); } }
+@-webkit-keyframes tip {
+  50% {
+    -webkit-transform: rotate(80deg); }
+  100% {
+    -webkit-transform: rotate(0deg); } }
+@keyframes tip {
+  50% {
+    -webkit-transform: rotate(80deg);
+    transform: rotate(80deg); }
+  100% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg); } }
+h2 {
+  text-align: center;
+  color: #3498DB;
+  margin-top: 200px; }
+
+.section-title {
+  text-align: center;
+  color: #3498DB;
+  margin-top: 40px; }
+
+.line {
+  margin: -20px 0 20px 0;
+  height: 1px;
+  width: 100%;
+  background-color: #3498DB; }
+
+.line-close {
+  margin-top: 20px;
+  height: 1px;
+  width: 100%;
+  background-color: #3498DB; }
+
+.text-center {
+  text-align: center; }
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto; }
+
+.spacer {
+  height: 20px; }
+
+.spacer-big {
+  height: 100px; }
+
+.hidden {
+  display: none; }
+
+.underline {
+  text-decoration: underline;
+  color: #3498DB; }
+
+.italic {
+  font-style: italic; }
+
+.justify {
+  text-align: justify; }
+
+/*# sourceMappingURL=main_new.css.map */
