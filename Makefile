@@ -9,13 +9,17 @@ RESUME_SRCS = $(shell find $(RESUME_DIR) -name '*.tex')
 all:
 	make clean
 	make cv.pdf
+	make coverletter.pdf
 
 cv.pdf: $ cv.tex 
 	$(CC) $<
 
+	
+coverletter.pdf: $ coverletter.tex 
+	$(CC) $<
 
 clean:
-	rm $(CV_DIR).pdf
+	rm -rf *.pdf
 
 show:
 	okular cv.pdf
