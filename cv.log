@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019/Debian) (preloaded format=xelatex 2021.2.2)  19 FEB 2021 16:11
+This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019/Debian) (preloaded format=xelatex 2021.2.2)  20 FEB 2021 22:07
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -896,6 +896,9 @@ LaTeX Info: Redefining \nameref on input line 39.
 
 \headertextwidth=\skip82
 \headerphotowidth=\skip83
+\photodim=\skip84
+File: 2020-01-18.jpg Graphic file (type bmp)
+<2020-01-18.jpg>
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
 (Font)              scaled to size 10.95116pt on input line 43.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
@@ -917,7 +920,7 @@ LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/m/n' will be
 LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/m/it' will be
 (Font)              scaled to size 10.0pt on input line 43.
 
-Overfull \hbox (1.46pt too wide) in paragraph at lines 43--44
+Overfull \hbox (1.45999pt too wide) in paragraph at lines 43--44
 []$[]$ $[]$$[]$
  []
 
@@ -961,15 +964,15 @@ LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
 (Font)              scaled to size 4.99947pt on input line 25.
 ) (./Certifications.tex
 LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/b/n' will be
-(Font)              scaled to size 9.0pt on input line 16.
+(Font)              scaled to size 9.0pt on input line 17.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(2)/m/n' will be
-(Font)              scaled to size 9.0pt on input line 16.
+(Font)              scaled to size 9.0pt on input line 17.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(2)/m/sl' in size <9> not avail
 able
 (Font)              Font shape `TU/SourceSansPro(2)/m/it' tried instead on inpu
-t line 16.
+t line 17.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(2)/m/it' will be
-(Font)              scaled to size 9.0pt on input line 16.
+(Font)              scaled to size 9.0pt on input line 17.
 ) (./skills.tex
 LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/b/n' will be
 (Font)              scaled to size 10.0pt on input line 15.
@@ -1006,12 +1009,12 @@ Package rerunfilecheck Info: File `cv.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 32015 strings out of 479819
- 630481 string characters out of 5895847
- 1067665 words of memory out of 5000000
- 48563 multiletter control sequences out of 15000+600000
+ 32105 strings out of 479819
+ 632741 string characters out of 5895847
+ 1068740 words of memory out of 5000000
+ 48650 multiletter control sequences out of 15000+600000
  536766 words of font info for 123 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 67i,12n,109p,793b,484s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 67i,12n,109p,793b,864s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 Output written on cv.pdf (2 pages).
