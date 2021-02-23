@@ -17,7 +17,7 @@ git pull
 
 
 // now you can edit files and make changes
-GIT_COMMITTER_DATE="Mon 20 Aug 2018 20:19:19 BST" git commit --amend --no-edit --date "Mon 20 Aug 2018 20:19:19 BST"
+GIT_COMMITTER_DATE="Mon 1 Mar 2019 20:19:19 BST" git commit --amend --no-edit --date "Mon 1 Mar 2019 20:19:19 BST"
 
 
 
