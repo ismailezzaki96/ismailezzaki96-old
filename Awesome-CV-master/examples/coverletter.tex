@@ -17,23 +17,19 @@
 %-------------------------------------------------------------------------------
 % CONFIGURATIONS
 %-------------------------------------------------------------------------------
-% A4 paper size by default, use 'letterpaper' for 
-
-%-------------------------------------------------------------------------------
 % A4 paper size by default, use 'letterpaper' for US letter
-\documentclass[12pt, a4paper]{awesome-cv}
+\documentclass[11pt, a4paper]{awesome-cv}
 
 % Configure page margins with geometry
 \geometry{left=1.4cm, top=.8cm, right=1.4cm, bottom=1.8cm, footskip=.5cm}
 
 % Specify the location of the included fonts
-\fontdir[fonts]
+\fontdir[fonts/]
 
 % Color for highlights
 % Awesome Colors: awesome-emerald, awesome-skyblue, awesome-red, awesome-pink, awesome-orange
 %                 awesome-nephritis, awesome-concrete, awesome-darknight
-\colorlet{awesome}{awesome-pink}
-
+\colorlet{awesome}{awesome-red}
 % Uncomment if you would like to specify your own color
 % \definecolor{awesome}{HTML}{CA63A8}
 
@@ -45,17 +41,8 @@
 % \definecolor{lighttext}{HTML}{999999}
 
 % Set false if you don't want to highlight section with awesome color
- % Colors for text
-% Uncomment if you would like to specify your own color
- \definecolor{darktext}{HTML}{000000}
- \definecolor{text}{HTML}{000000}
- \definecolor{graytext}{HTML}{000000}
- \definecolor{lighttext}{HTML}{000000}
- 
- 
- 
-% Set false if you don't want to highlight section with awesome color
 \setbool{acvSectionColorHighlight}{true}
+
 % If you would like to change the social information separator from a pipe (|) to something else
 \renewcommand{\acvHeaderSocialSep}{\quad\textbar\quad}
 
@@ -65,15 +52,16 @@
 %	Comment any of the lines below if they are not required
 %-------------------------------------------------------------------------------
 % Available options: circle|rectangle,edge/noedge,left/right
-\name{Ismail}{EZZAKI}
-\position{Master Student{\enskip\cdotp\enskip}Freelancer Programmer}
-\address{812 Ait kdif Ouarzazate Morocco}
+\photo[circle,noedge,left]{./examples/profile}
+\name{Claud D.}{Park}
+\position{Software Architect{\enskip\cdotp\enskip}Security Expert}
+\address{42-8, Bangbae-ro 15-gil, Seocho-gu, Seoul, 00681, Rep. of KOREA}
 
-\mobile{(+212) 708070221}
-\email{ismail.ezzaki@edu.uca.ma}
-\homepage{ismailezzaki96.github.io}
-\linkedin{ismail-ezzaki-894337154}
-%\github{ismailezzaki96}
+\mobile{(+82) 10-9030-1843}
+\email{posquit0.bj@gmail.com}
+\homepage{www.posquit0.com}
+\github{posquit0}
+\linkedin{posquit0}
 % \gitlab{gitlab-id}
 % \stackoverflow{SO-id}{SO-name}
 % \twitter{@twit}
@@ -87,20 +75,25 @@
 
 \quote{``Be the change that you want to see in the world."}
 
+
 %-------------------------------------------------------------------------------
 %	LETTER INFORMATION
 %	All of the below lines must be filled out
 %-------------------------------------------------------------------------------
 % The company being applied to
-
+\recipient
+  {Company Recruitment Team}
+  {Google Inc.\\1600 Amphitheatre Parkway\\Mountain View, CA 94043}
+% The date on the letter, default is the date of compilation
+\letterdate{\today}
 % The title of the letter
-\lettertitle{Cover Letter}
+\lettertitle{Job Application for Software Engineer}
 % How the letter is opened
-\letteropening{I am writing this letter to express my powerful interest in the Ph.D. position in machine learning and particle physics:” unsupervised Deep Learning Tools for the Discovery of Tomorrow” at the Cluster of Excellence Quantum Universe in 2021.}
+\letteropening{Dear Mr./Ms./Dr. LastName,}
 % How the letter is closed
-\letterclosing{I hope that with this letter I informed you sufficiently of my ambitions and why they fit well into this Ph.D. thesis. I will gladly answer questions you may have and hope to hear from you soon.
-Sincerely.}
+\letterclosing{Sincerely,}
 % Any enclosures with the letter
+\letterenclosure[Attached]{Curriculum Vitae}
 
 
 %-------------------------------------------------------------------------------
@@ -108,12 +101,20 @@ Sincerely.}
 
 % Print the header with above personal informations
 % Give optional argument to change alignment(C: center, L: left, R: right)
+\makecvheader[R]
 
 % Print the footer with 3 arguments(<left>, <center>, <right>)
 % Leave any of these blank if they are not needed
+\makecvfooter
+  {\today}
+  {Claud D. Park~~~·~~~Cover Letter}
+  {}
 
 % Print the title with above letter informations
 \makelettertitle
+
+
+
 
 %-------------------------------------------------------------------------------
 %	LETTER CONTENT
@@ -136,15 +137,6 @@ I think that Cluster of Excellence Quantum Universe can help me with these ambit
 I would see myself as an ideal candidate for this Ph.D. since, besides my thorough theoretical knowledge obtained during my master in high energy and computational physics, I do also possess strong numerical and data analysis \& deep learning skills obtained during multiple research projects as seen from my CV; I have a lot of experience in programming languages (Python and C++) and frameworks (ROOT, TensorFlow) Besides this, due to working with supervisors, whose specializations did not always directly include numerical simulations, I learned to work on numerical and computational issues independently using coursera \& github.
 
 \end{cvletter}
-
-
-
-
-
-
-
-
-
 
 
 

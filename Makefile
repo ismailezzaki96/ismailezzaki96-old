@@ -15,11 +15,12 @@ cv.pdf: $ cv.tex
 	$(CC) $<
 
 	
-coverletter.pdf: $ coverletter.tex 
+coverletter.pdf: $ motivation_letter.tex 
 	$(CC) $<
 
 clean:
-	rm -rf *.pdf
+	rm -rf cv.pdf
+	rm -rf motivation_letter.pdf
 
 show:
 	okular cv.pdf
