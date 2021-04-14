@@ -1,0 +1,62 @@
+I"X	<p>Minimal Mistakes is a flexible two-column Jekyll theme. Perfect for hosting your personal site, blog, or portfolio on GitHub or self-hosting on your own server. As the name implies — styling is purposely minimalistic to be enhanced and customized by you :smile:.</p>
+
+<figure class="third ">
+  
+    
+      <a href="/assets/images/mm-layout-splash.png">
+          <img src="/assets/images/mm-layout-splash.png" alt="splash layout example" />
+      </a>
+    
+  
+    
+      <a href="/assets/images/mm-layout-single-meta.png">
+          <img src="/assets/images/mm-layout-single-meta.png" alt="single layout with comments and related posts" />
+      </a>
+    
+  
+    
+      <a href="/assets/images/mm-layout-archive.png">
+          <img src="/assets/images/mm-layout-archive.png" alt="archive layout example" />
+      </a>
+    
+  
+  
+    <figcaption>Examples of included layouts <code class="language-plaintext highlighter-rouge">splash</code>, <code class="language-plaintext highlighter-rouge">single</code>, and <code class="language-plaintext highlighter-rouge">archive</code>.
+</figcaption>
+  
+</figure>
+
+<h2 id="notable-features">Notable Features</h2>
+
+<h2 id="demo-pages">Demo Pages</h2>
+
+<hr />
+
+<h2 id="credits">Credits</h2>
+
+<h3 id="icons--demo-images">Icons + Demo Images:</h3>
+
+<ul>
+  <li><a href="https://thenounproject.com">The Noun Project</a> – Garrett Knoll, Arthur Shlain, and <a href="https://thenounproject.com/tracytam">tracy tam</a></li>
+  <li><a href="http://fontawesome.io/">Font Awesome</a></li>
+  <li><a href="https://unsplash.com/">Unsplash</a></li>
+</ul>
+
+<h3 id="other">Other:</h3>
+
+<ul>
+  <li><a href="https://jekyllrb.com/">Jekyll</a></li>
+  <li><a href="https://jquery.com/">jQuery</a></li>
+  <li><a href="http://susy.oddbird.net/">Susy</a></li>
+  <li><a href="http://breakpoint-sass.com/">Breakpoint</a></li>
+  <li><a href="http://dimsemenov.com/plugins/magnific-popup/">Magnific Popup</a></li>
+  <li><a href="http://fitvidsjs.com/">FitVids.JS</a></li>
+  <li>Greedy Navigation - <a href="https://codepen.io/lukejacksonn/pen/PwmwWV">lukejacksonn</a></li>
+  <li><a href="https://github.com/kswedberg/jquery-smooth-scroll">jQuery Smooth Scroll</a></li>
+  <li><a href="http://lunrjs.com">Lunr</a></li>
+</ul>
+
+<hr />
+
+<p>Minimal Mistakes is designed, developed, and maintained by Michael Rose. Just another boring, tattooed, designer from Buffalo New York.</p>
+:ET
