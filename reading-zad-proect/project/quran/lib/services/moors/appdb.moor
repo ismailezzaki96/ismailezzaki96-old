@@ -1,8 +1,0 @@
-CREATE TABLE "quran_bookmarks" (
-	"id"	INTEGER,
-	"sura"	INTEGER,
-	"sura_name"	TEXT,
-	"aya"	INTEGER,
-	"insert_time"	INTEGER,
-	PRIMARY KEY("id")
-);
