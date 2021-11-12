@@ -1,5 +1,7 @@
+def sum(*args):
+    sum = 0
+    for i in args:
+        sum += i
+    return sum
 
-var = "abcdefgh"
-
-reverse_var = ''.join([x for x in var][::-1])
-print(reverse_var)
+print(sum(1,3,4))

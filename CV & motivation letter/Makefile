@@ -45,7 +45,7 @@ cv_pdf:
 	rm -f $(LATEXFILES)
 
 cv_fr_pdf:
-	rm cv_fr.pdf
+	rm -f cv_fr.pdf
 	lualatex  -synctex=1 -interaction=nonstopmode cv_fr.tex
 	rm -f $(LATEXFILES)
 
