@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.12.0 (TeX Live 2020/Debian)  (format=lualatex 2021.11.14)  14 NOV 2021 22:23
+This is LuaHBTeX, Version 1.12.0 (TeX Live 2020/Debian)  (format=lualatex 2021.11.14)  15 NOV 2021 23:29
  restricted system commands enabled.
 **cv
 (./cv.tex
@@ -950,9 +950,9 @@ Package: nth 2002/02/27
 LaTeX Warning: Unused global option(s):
     [10pt].
 
-No file cv.aux.
-
+(./cv.aux)
 \openout1 = cv.aux
+
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 34.
 LaTeX Font Info:    ... okay on input line 34.
 LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 34.
@@ -964,7 +964,7 @@ LaTeX Font Info:    ... okay on input line 34.
 LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 34.
 LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 34
 .
-(/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
+ (/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
 LaTeX Font Info:    ... okay on input line 34.
@@ -1130,6 +1130,8 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 34.
 LaTeX Info: Redefining \pageref on input line 34.
 LaTeX Info: Redefining \nameref on input line 34.
+
+(./cv.out) (./cv.out)
 \@outlinefile=\write6
 
 \openout6 = cv.out
@@ -1161,4 +1163,136 @@ LaTeX Font Warning: Font shape `TU/SourceSansPro-Light(0)/b/it' undefined
 (Font)              using `TU/SourceSansPro-Light(0)/b/n' instead on input line 
 16.
 
-) (./cv_input/section_educati
+) (./cv_input/section_education.tex
+Overfull \hbox (2.85617pt too wide) in paragraph at lines 15--11
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 15--11
+
+ []
+
+
+Overfull \hbox (18.7095pt too wide) in alignment at lines 15--52
+ [][] 
+ []
+
+) (./cv_input/section_scolarite.tex) (./cv_input/section_volantaire.tex
+Overfull \hbox (18.30951pt too wide) in paragraph at lines 15--11
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 15--11
+
+ []
+
+
+Overfull \hbox (18.7095pt too wide) in alignment at lines 15--36
+ [][] 
+ []
+
+[1
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}<../profile.jpeg
+warning  (readjpg): Exif resolution 72dpi x 72dpi differs from the input resolut
+ion 96dpi x 96dpi
+>]) (./cv_input/section_experience_short.tex
+Overfull \hbox (18.7095pt too wide) in alignment at lines 15--42
+ [][] 
+ []
+
+) (./cv_input/section_langues.tex
+Overfull \hbox (304.38432pt too wide) in alignment at lines 27--27
+ [][] 
+ []
+
+) (./cv_input/section_projets.tex
+Underfull \hbox (badness 10000) in paragraph at lines 20--20
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 26--26
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 26--26
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 32--32
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 32--32
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 38--38
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 38--38
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 44--44
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 44--44
+
+ []
+
+) (./cv_input/section_interets.tex) (./cv_input/section_references.tex
+Overfull \hbox (18.99352pt too wide) in paragraph at lines 21--21
+[][] 
+ []
+
+[2]) [3] (./cv.aux)
+
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
+
+Package rerunfilecheck Warning: File `cv.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `cv.out':
+(rerunfilecheck)             Before: D41D8CD98F00B204E9800998ECF8427E;0
+(rerunfilecheck)             After:  A698EB88B13B9FE0B5509DBFADA9880C;1150.
+)
+
+Here is how much of LuaTeX's memory you used:
+ 31779 strings out of 478824
+ 125086,1144653 words of node,token memory allocated
+ 851 words of node memory still in use:
+   4 hlist, 1 vlist, 1 rule, 15 glue, 3 kern, 1 penalty, 2 glyph, 103 attribute,
+ 70 glue_spec, 16 attribute_list, 2 write nodes
+   avail lists: 1:1,2:10348,3:1324,4:289,5:1371,6:153,7:8139,8:44,9:1247,10:16,1
+1:696
+ 50201 multiletter control sequences out of 65536+600000
+ 61 fonts using 10124431 bytes
+ 128i,12n,123p,1186b,1082s stack positions out of 5000i,500n,10000p,200000b,200000s
+</usr/share/texlive/texmf-dist/fonts/opentype/public/fontawesome5/FontAwesome5Fr
+ee-Regular-400.otf><./fonts/SourceSansPro-LightIt.otf></usr/share/texlive/texmf-
+dist/fonts/opentype/public/fontawesome5/FontAwesome5Brands-Regular-400.otf></usr
+/share/texlive/texmf-dist/fonts/opentype/public/fontawesome5/FontAwesome5Free-So
+lid-900.otf><./fonts/SourceSansPro-Regular.otf><./fonts/SourceSansPro-Light.otf>
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb>
+Output written on cv.pdf (3 pages, 152507 bytes).
+
+PDF statistics: 105 PDF objects out of 1000 (max. 8388607)
+ 79 compressed objects within 1 object stream
+ 19 named destinations out of 1000 (max. 131072)
+ 16 words of extra memory for PDF output out of 10000 (max. 100000000)
+
