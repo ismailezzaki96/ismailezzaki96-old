@@ -1,7 +1,6 @@
-def sum(*args):
-    sum = 0
-    for i in args:
-        sum += i
-    return sum
 
-print(sum(1,3,4))
+def is_sorted(t):
+    return not t != sorted(t)
+
+t= ["1,",",3"]
+print(is_sorted(t))

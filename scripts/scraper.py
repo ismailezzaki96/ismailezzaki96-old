@@ -10,7 +10,7 @@ options = webdriver.ChromeOptions()
 options.add_argument('--ignore-certificate-errors')
 options.add_argument('--incognito')
 options.add_argument('--headless')
-driver = webdriver.Chrome("/home/k/Desktop/scripts/chromedriver", chrome_options=options)
+driver = webdriver.Chrome("/home/k/chromedriver", options=options)
 
 URL = 'https://inspirehep.net/jobs?sort=mostrecent&size=100&page=1&q=&rank=PHD&rank=MASTER'
 

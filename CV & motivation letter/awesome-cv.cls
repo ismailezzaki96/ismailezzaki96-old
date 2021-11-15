@@ -455,14 +455,15 @@
     \headerfirstnamestyle{\@firstname}\headerlastnamestyle{{}\acvHeaderNameDelim\@lastname}%
     \\[\acvHeaderAfterNameSkip]%
     \ifthenelse{\isundefined{\@position}}{}{\headerpositionstyle{\@position\\[\acvHeaderAfterPositionSkip]}}%
-    \ifthenelse{\isundefined{\@address}}{}{\headeraddressstyle{\@address\\[\acvHeaderAfterAddressSkip]}}%
+    \ifthenelse{\isundefined{\@address}}{}{\headeraddressstyle{\href{https://www.google.com/maps/search/?api=1&query=\@address}\@address\\[\acvHeaderAfterAddressSkip]}}%
+
     \headersocialstyle{%
       \newbool{isstart}%
       \setbool{isstart}{true}%
       \ifthenelse{\isundefined{\@mobile}}%
         {}%
         {%
-          \faMobile\acvHeaderIconSep\@mobile%
+       \href{tel:\@mobile}{\faMobile\acvHeaderIconSep\@mobile}%
           \setbool{isstart}{false}%
         }%
       \ifthenelse{\isundefined{\@email}}%
@@ -652,6 +653,18 @@
 \newcommand*{\cvhonor}[4]{%
   \honordatestyle{#4} & \honorpositionstyle{#1}, \honortitlestyle{#2} & \honorlocationstyle{#3} \\
 }
+
+% Define your projects
+% Usage: \cvproject{<title>}{<date>}{<description>}
+\newcommand*{\cvproject}[3]{
+  \setlength\tabcolsep{0pt}
+  \setlength{\extrarowheight}{0pt}
+  \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}} L{12.5cm} R{4.5cm}}
+      \entrytitlestyle{#1} & \entrydatestyle{#2} \\[2mm]
+    \multicolumn{2}{L{17cm}}{\descriptionstyle{#3}} \\
+  \end{tabular*}
+}
+
 
 % Define an environment for cvskill
 \newenvironment{cvskills}{%
