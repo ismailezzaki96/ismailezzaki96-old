@@ -80,7 +80,7 @@
 \RequirePackage{enumitem}
 \RequirePackage{longtable}
 \RequirePackage{etoolbox}
-\RequirePackage{tikz}
+%\RequirePackage{tikz}
 \RequirePackage[skins]{tcolorbox}
 \RequirePackage{fancyhdr}
 \RequirePackage{ifthen}
@@ -106,6 +106,17 @@
 { \definecolor{basecolor}{rgb}{0.0, 0.62, 0.38} }
 
 \definecolor{darkGrey}{HTML}{989898}
+
+\definecolor{awesome-emerald}{HTML}{00A388}
+\definecolor{awesome-skyblue}{HTML}{0395DE}
+\definecolor{awesome-red}{HTML}{DC3522}
+\definecolor{awesome-pink}{HTML}{EF4089}
+\definecolor{awesome-orange}{HTML}{FF6138}
+\definecolor{awesome-nephritis}{HTML}{27AE60}
+\definecolor{awesome-concrete}{HTML}{95A5A6}
+\definecolor{awesome-darknight}{HTML}{131A28}
+%\colorlet{linkcolor}{awesome-nephritis}
+
 
 \colorlet{linkcolor}{basecolor}
 \colorlet{accentcolor}{linkcolor!90}
@@ -151,23 +162,18 @@
 \hyphenation{im-pre-se}
 
 % Setup fonts
-\defaultfontfeatures{Mapping=tex-text}
+\defaultfontfeatures{Ligatures=TeX}
 %
 
+
 % Define font to use according to localFont option
-\ifundef{\@local}
-{
-  %\setmainfont[BoldFont = Helvetica Neue, ItalicFont=Helvetica Neue Thin Italic ,SmallCapsFont = Helvetica Neue Light]{Helvetica Neue Thin}
-  \setmainfont{Source Sans Pro Light}[
-    BoldFont = SourceSansPro-Regular,
-    ItalicFont= Source Sans Pro Light Italic]
-}
-{
   \setmainfont{SourceSansPro-Light}[
     Path = fonts/,
     BoldFont = SourceSansPro-Regular,
     ItalicFont = SourceSansPro-LightIt]
-}
+
+
+
 
 %New length definition
 \newlength{\fulllength}
@@ -378,6 +384,7 @@
 % Resume part title definition
 \newcommand\sectionTitle[2]{\section{\texorpdfstring{\color{accentcolor}#2\enspace \textsc{#1}}{#1}}}
 
+
 % Define the 'keywords' environment
 \newenvironment{keywords}{%
   \renewcommand{\arraystretch}{1.1}
@@ -518,7 +525,7 @@
 
 \newcommand*\referee[5]{
   \hspace{1em}
-  \begin{minipage}[t]{\dimexpr(\linewidth/3) - 3em}
+  \begin{minipage}[t]{\dimexpr(\linewidth/2) - 3em}
     \begin{tabular}{>{}l >{}l}
       \multicolumn{2}{l}{\textbf{#1}}\\
       \multicolumn{2}{l}{\emph{#2}, \textsc{#3}}\\
@@ -533,9 +540,10 @@
   \begin{minipage}[t]{\dimexpr(\linewidth/3) - 3em}
     \begin{tabular}{>{}l >{}l}
       \multicolumn{2}{l}{\textbf{#1}}\\
-      \multicolumn{2}{l}{\emph{#2}, \textsc{#3}}\\
-      \quad \mailSymbol & \href{mailto:#4}{#4} \\
+      \multicolumn{2}{l}{\emph{#2}}\\
+      \multicolumn{2}{l}{\textsc{#3}}\\
+      
+      \mailSymbol \href{mailto:#4}{#4} \\
     \end{tabular}
   \end{minipage}%
 }
-

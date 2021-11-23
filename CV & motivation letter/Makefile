@@ -62,7 +62,6 @@ show:
 	okular  ${filename}.pdf
 clean:
 	rm -f $(LATEXFILES)
-	rm -f *.pdf
 docx:
 	pandoc ${filename}.tex   -o ${filename}.docx
 

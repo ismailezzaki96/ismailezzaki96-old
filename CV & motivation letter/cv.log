@@ -1,6 +1,6 @@
-This is LuaHBTeX, Version 1.12.0 (TeX Live 2020/Debian)  (format=lualatex 2021.11.14)  15 NOV 2021 23:29
+This is LuaHBTeX, Version 1.12.0 (TeX Live 2020/Debian)  (format=lualatex 2021.11.14)  19 NOV 2021 11:06
  restricted system commands enabled.
-**cv
+**cv.tex
 (./cv.tex
 LaTeX2e <2020-10-01> patch level 4
 Lua module: luaotfload 2021-01-08 3.17 Lua based OpenType font support
@@ -567,7 +567,9 @@ Package: longtable 2020/01/07 v4.13 Multi-page Table package (DPC)
 \c@LT@chunks=\count288
 \LT@p@ftn=\toks24
 )
-(/usr/share/texlive/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
+(/usr/share/texlive/texmf-dist/tex/latex/tcolorbox/tcolorbox.sty
+Package: tcolorbox 2020/10/09 version 4.42 text color boxes
+
 (/usr/share/texlive/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
 (/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
@@ -801,7 +803,38 @@ Package: pgfcomp-version-0-65 2020/12/27 v3.1.8b (3.1.8b)
 (/usr/share/texlive/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-1-18
 .sty
 Package: pgfcomp-version-1-18 2020/12/27 v3.1.8b (3.1.8b)
-)) (/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgffor.sty
+)) (/usr/share/texlive/texmf-dist/tex/latex/tools/verbatim.sty
+Package: verbatim 2020-07-07 v1.5u LaTeX2e package for verbatim enhancements
+\every@verbatim=\toks35
+\verbatim@line=\toks36
+\verbatim@in@stream=\read4
+)
+(/usr/share/texlive/texmf-dist/tex/latex/environ/environ.sty
+Package: environ 2014/05/04 v0.3 A new way to define environments
+
+(/usr/share/texlive/texmf-dist/tex/latex/trimspaces/trimspaces.sty
+Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
+)
+\@envbody=\toks37
+)
+\tcb@titlebox=\box63
+\tcb@upperbox=\box64
+\tcb@lowerbox=\box65
+\tcb@phantombox=\box66
+\c@tcbbreakpart=\count301
+\c@tcblayer=\count302
+\c@tcolorbox@number=\count303
+\tcb@temp=\box67
+\tcb@temp=\box68
+\tcb@temp=\box69
+\tcb@temp=\box70
+\tcb@out=\write4
+\tcb@record@out=\write5
+
+(/usr/share/texlive/texmf-dist/tex/latex/tcolorbox/tcbskins.code.tex
+Library (tcolorbox): 'tcbskins.code.tex' version '4.42'
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgffor.sty
 (/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex))
 (/usr/share/texlive/texmf-dist/tex/latex/pgf/math/pgfmath.sty
@@ -812,8 +845,8 @@ Package: pgffor 2020/12/27 v3.1.8b (3.1.8b)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)
 \pgffor@iter=\dimen269
 \pgffor@skip=\dimen270
-\pgffor@stack=\toks35
-\pgffor@toks=\toks36
+\pgffor@stack=\toks38
+\pgffor@toks=\toks39
 ))
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
 Package: tikz 2020/12/27 v3.1.8b (3.1.8b)
@@ -821,7 +854,7 @@ Package: tikz 2020/12/27 v3.1.8b (3.1.8b)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers
 .code.tex
 File: pgflibraryplothandlers.code.tex 2020/12/27 v3.1.8b (3.1.8b)
-\pgf@plot@mark@count=\count301
+\pgf@plot@mark@count=\count304
 \pgfplotmarksize=\dimen271
 )
 \tikz@lastx=\dimen272
@@ -832,61 +865,29 @@ File: pgflibraryplothandlers.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 \tikz@lastmovetoy=\dimen277
 \tikzleveldistance=\dimen278
 \tikzsiblingdistance=\dimen279
-\tikz@figbox=\box63
-\tikz@figbox@bg=\box64
-\tikz@tempbox=\box65
-\tikz@tempbox@bg=\box66
-\tikztreelevel=\count302
-\tikznumberofchildren=\count303
-\tikznumberofcurrentchild=\count304
-\tikz@fig@count=\count305
+\tikz@figbox=\box71
+\tikz@figbox@bg=\box72
+\tikz@tempbox=\box73
+\tikz@tempbox@bg=\box74
+\tikztreelevel=\count305
+\tikznumberofchildren=\count306
+\tikznumberofcurrentchild=\count307
+\tikz@fig@count=\count308
 
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
 File: pgfmodulematrix.code.tex 2020/12/27 v3.1.8b (3.1.8b)
-\pgfmatrixcurrentrow=\count306
-\pgfmatrixcurrentcolumn=\count307
-\pgf@matrix@numberofcolumns=\count308
+\pgfmatrixcurrentrow=\count309
+\pgfmatrixcurrentcolumn=\count310
+\pgf@matrix@numberofcolumns=\count311
 )
-\tikz@expandcount=\count309
+\tikz@expandcount=\count312
 
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
 zlibrarytopaths.code.tex
 File: tikzlibrarytopaths.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 )))
-(/usr/share/texlive/texmf-dist/tex/latex/tcolorbox/tcolorbox.sty
-Package: tcolorbox 2020/10/09 version 4.42 text color boxes
-
-(/usr/share/texlive/texmf-dist/tex/latex/tools/verbatim.sty
-Package: verbatim 2020-07-07 v1.5u LaTeX2e package for verbatim enhancements
-\every@verbatim=\toks37
-\verbatim@line=\toks38
-\verbatim@in@stream=\read4
-)
-(/usr/share/texlive/texmf-dist/tex/latex/environ/environ.sty
-Package: environ 2014/05/04 v0.3 A new way to define environments
-
-(/usr/share/texlive/texmf-dist/tex/latex/trimspaces/trimspaces.sty
-Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
-)
-\@envbody=\toks39
-)
-\tcb@titlebox=\box67
-\tcb@upperbox=\box68
-\tcb@lowerbox=\box69
-\tcb@phantombox=\box70
-\c@tcbbreakpart=\count310
-\c@tcblayer=\count311
-\c@tcolorbox@number=\count312
-\tcb@temp=\box71
-\tcb@temp=\box72
-\tcb@temp=\box73
-\tcb@temp=\box74
-\tcb@out=\write4
-\tcb@record@out=\write5
-
-(/usr/share/texlive/texmf-dist/tex/latex/tcolorbox/tcbskins.code.tex
-Library (tcolorbox): 'tcbskins.code.tex' version '4.42'
 \tcb@waterbox=\box75
+
 (/usr/share/texlive/texmf-dist/tex/latex/tcolorbox/tcbskinsjigsaw.code.tex
 Library (tcolorbox): 'tcbskinsjigsaw.code.tex' version '4.42'
 ))) (/usr/share/texlive/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
@@ -904,20 +905,16 @@ Package: fancyhdr 2021/01/04 v4.0 Extensive control of page headers and footers
 (/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
 Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 )
-Package hyperref Info: Option `breaklinks' set `true' on input line 125.
+Package hyperref Info: Option `breaklinks' set `true' on input line 136.
 luaotfload | db : Reload initiated (formats: otf,ttf,ttc); reason: File not foun
 d: "fonts/SourceSansPro-Light".
-
-Package fontspec Warning: Input mapping not supported in LuaTeX.
-(fontspec)                 Use "Ligatures=TeX" instead of "Mapping=tex-text".
-
 luaotfload | aux : font no 31 (nil) does not define feature smcp for script latn
  with language dflt
 
 Package fontspec Info: Font family 'SourceSansPro-Light(0)' created for font
 (fontspec)             'SourceSansPro-Light' with options
-(fontspec)             [Mapping=tex-text,Ligatures=TeX,Path = fonts/,BoldFont
-(fontspec)             = SourceSansPro-Regular,ItalicFont =
+(fontspec)             [Ligatures=TeX,Ligatures=TeX,Path = fonts/,BoldFont =
+(fontspec)             SourceSansPro-Regular,ItalicFont =
 (fontspec)             SourceSansPro-LightIt].
 (fontspec)              
 (fontspec)              This font family consists of the following NFSS
@@ -943,7 +940,8 @@ anguage=dflt;+tlig;"
 \fulllength=\skip69
 \leftcolumnlength=\skip70
 \rightcolumnlength=\skip71
-) (/usr/share/texlive/texmf-dist/tex/generic/nth/nth.sty
+)
+(/usr/share/texlive/texmf-dist/tex/generic/nth/nth.sty
 Package: nth 2002/02/27
 )
 
@@ -953,103 +951,103 @@ LaTeX Warning: Unused global option(s):
 (./cv.aux)
 \openout1 = cv.aux
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 34.
-LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 34
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 30.
+LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 30
 .
  (/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Info: Redefining \dots on input line 34.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Info: Redefining \dots on input line 30.
 Package french.ldf Info: Setting StandardItemizeEnv=true for
 (french.ldf)             compatibility with enumitem package,
-(french.ldf)             reported on input line 34.
+(french.ldf)             reported on input line 30.
 Package french.ldf Info: Setting StandardEnumerateEnv=true for
 (french.ldf)             compatibility with enumitem package,
-(french.ldf)             reported on input line 34.
-LaTeX Info: Redefining \up on input line 34.
+(french.ldf)             reported on input line 30.
+LaTeX Info: Redefining \up on input line 30.
 
 Package fontspec Info: Adjusting the maths setup (use [no-math] to avoid
 (fontspec)             this).
 
 \symlegacymaths=\mathgroup4
 LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
-(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 34.
-LaTeX Font Info:    Redeclaring math accent \acute on input line 34.
-LaTeX Font Info:    Redeclaring math accent \grave on input line 34.
-LaTeX Font Info:    Redeclaring math accent \ddot on input line 34.
-LaTeX Font Info:    Redeclaring math accent \tilde on input line 34.
-LaTeX Font Info:    Redeclaring math accent \bar on input line 34.
-LaTeX Font Info:    Redeclaring math accent \breve on input line 34.
-LaTeX Font Info:    Redeclaring math accent \check on input line 34.
-LaTeX Font Info:    Redeclaring math accent \hat on input line 34.
-LaTeX Font Info:    Redeclaring math accent \dot on input line 34.
-LaTeX Font Info:    Redeclaring math accent \mathring on input line 34.
-LaTeX Font Info:    Redeclaring math symbol \colon on input line 34.
-LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 34.
-LaTeX Font Info:    Redeclaring math symbol \Delta on input line 34.
-LaTeX Font Info:    Redeclaring math symbol \Theta on input line 34.
-LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 34.
-LaTeX Font Info:    Redeclaring math symbol \Xi on input line 34.
-LaTeX Font Info:    Redeclaring math symbol \Pi on input line 34.
-LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 34.
-LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 34.
-LaTeX Font Info:    Redeclaring math symbol \Phi on input line 34.
-LaTeX Font Info:    Redeclaring math symbol \Psi on input line 34.
-LaTeX Font Info:    Redeclaring math symbol \Omega on input line 34.
-LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 34.
-LaTeX Font Info:    Redeclaring symbol font `operators' on input line 34.
+(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 30.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 30.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 30.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 30.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 30.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 30.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 30.
+LaTeX Font Info:    Redeclaring math accent \check on input line 30.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 30.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 30.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 30.
+LaTeX Font Info:    Redeclaring math symbol \colon on input line 30.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 30.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 30.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 30.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 30.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 30.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 30.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 30.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 30.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 30.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 30.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 30.
+LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 30.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 30.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `normal' on input line 34.
+(Font)              `operators' in the math version `normal' on input line 30.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  OT1/cmr/m/n --> TU/SourceSansPro-Light(0)/m/n on input l
-ine 34.
+ine 30.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `bold' on input line 34.
+(Font)              `operators' in the math version `bold' on input line 30.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
 (Font)                  OT1/cmr/bx/n --> TU/SourceSansPro-Light(0)/m/n on input 
-line 34.
+line 30.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  TU/SourceSansPro-Light(0)/m/n --> TU/SourceSansPro-Light
-(0)/m/n on input line 34.
+(0)/m/n on input line 30.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
 (Font)                  OT1/cmr/m/it --> TU/SourceSansPro-Light(0)/m/it on input
- line 34.
+ line 30.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
 (Font)                  OT1/cmr/bx/n --> TU/SourceSansPro-Light(0)/b/n on input 
-line 34.
+line 30.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 34.
+(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 30.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 34.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 30.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
 (Font)                  TU/SourceSansPro-Light(0)/m/n --> TU/SourceSansPro-Light
-(0)/b/n on input line 34.
+(0)/b/n on input line 30.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
 (Font)                  OT1/cmr/bx/it --> TU/SourceSansPro-Light(0)/b/it on inpu
-t line 34.
+t line 30.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 34.
+(Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 30.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 34.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 30.
 
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -1115,7 +1113,7 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package hyperref Info: Link coloring OFF on input line 34.
+Package hyperref Info: Link coloring OFF on input line 30.
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
 
@@ -1127,33 +1125,37 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count319
 )
-LaTeX Info: Redefining \ref on input line 34.
-LaTeX Info: Redefining \pageref on input line 34.
-LaTeX Info: Redefining \nameref on input line 34.
+LaTeX Info: Redefining \ref on input line 30.
+LaTeX Info: Redefining \pageref on input line 30.
+LaTeX Info: Redefining \nameref on input line 30.
 
 (./cv.out) (./cv.out)
 \@outlinefile=\write6
 
 \openout6 = cv.out
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 41.
+(Font)              <17.28> on input line 32.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 41.
+(Font)              <12> on input line 32.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 32.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 32.
 
 warning  (file ../profile.jpeg) (readjpg): Exif resolution 72dpi x 72dpi differs
  from the input resolution 96dpi x 96dpi
-<../profile.jpeg, id=10, 1063.975pt x 1240.635pt>
+<../profile.jpeg, id=51, 1063.975pt x 1240.635pt>
 File: ../profile.jpeg Graphic file (type jpg)
 <use ../profile.jpeg>
-Package luatex.def Info: ../profile.jpeg  used on input line 41.
+Package luatex.def Info: ../profile.jpeg  used on input line 32.
 (luatex.def)             Requested size: 1063.97241pt x 1240.63197pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 41--41
+Underfull \hbox (badness 10000) in paragraph at lines 32--32
 [][]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 41--41
+Underfull \hbox (badness 10000) in paragraph at lines 32--32
 
  []
 
@@ -1178,7 +1180,7 @@ Overfull \hbox (18.7095pt too wide) in alignment at lines 15--52
  [][] 
  []
 
-) (./cv_input/section_scolarite.tex) (./cv_input/section_volantaire.tex
+) (./cv_input/section_scolarite.tex) (./cv_input/section_langues.tex
 Overfull \hbox (18.30951pt too wide) in paragraph at lines 15--11
 [][]
  []
@@ -1189,7 +1191,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 15--11
  []
 
 
-Overfull \hbox (18.7095pt too wide) in alignment at lines 15--36
+Overfull \hbox (304.38432pt too wide) in alignment at lines 27--27
+ [][] 
+ []
+
+) (./cv_input/section_experience_short_fr.tex
+Overfull \hbox (18.7095pt too wide) in alignment at lines 15--47
  [][] 
  []
 
@@ -1198,17 +1205,24 @@ Overfull \hbox (18.7095pt too wide) in alignment at lines 15--36
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}<../profile.jpeg
 warning  (readjpg): Exif resolution 72dpi x 72dpi differs from the input resolut
 ion 96dpi x 96dpi
->]) (./cv_input/section_experience_short.tex
-Overfull \hbox (18.7095pt too wide) in alignment at lines 15--42
- [][] 
- []
-
-) (./cv_input/section_langues.tex
-Overfull \hbox (304.38432pt too wide) in alignment at lines 27--27
+>]) (./cv_input/section_volantaire.tex
+Overfull \hbox (18.7095pt too wide) in alignment at lines 15--36
  [][] 
  []
 
 ) (./cv_input/section_projets.tex
+Underfull \hbox (badness 10000) in paragraph at lines 20--20
+
+ []
+
+
+Underfull \hbox (badness 1354) in paragraph at lines 20--20
+\TU/SourceSansPro-Light(0)/m/n/10 construire une si-mu-la-tion d’un in-ter-f
+é-ro-mètre Mach Zehn-der comme co-ro-no-graphe pour l’uti-li-ser dans l’ob
+-ser-va-toire
+ []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 20--20
 
  []
@@ -1219,6 +1233,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 26--26
  []
 
 
+Underfull \hbox (badness 1205) in paragraph at lines 26--26
+\TU/SourceSansPro-Light(0)/m/n/10 Entraîner un ré-seau de neu-rones GAN à pro
+-duire des évé-ne-ments Z → μμ dans des condi-tions qui re-pro-duisent les
+
+ []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 26--26
 
  []
@@ -1233,66 +1254,37 @@ Underfull \hbox (badness 10000) in paragraph at lines 32--32
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 38--38
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 38--38
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 44--44
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 44--44
-
- []
-
-) (./cv_input/section_interets.tex) (./cv_input/section_references.tex
-Overfull \hbox (18.99352pt too wide) in paragraph at lines 21--21
-[][] 
- []
-
-[2]) [3] (./cv.aux)
+) (./cv_input/section_references.tex) (./cv_input/section_interets.tex)
+[2] (./cv.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-
-Package rerunfilecheck Warning: File `cv.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `cv.out':
-(rerunfilecheck)             Before: D41D8CD98F00B204E9800998ECF8427E;0
-(rerunfilecheck)             After:  A698EB88B13B9FE0B5509DBFADA9880C;1150.
+Package rerunfilecheck Info: File `cv.out' has not changed.
+(rerunfilecheck)             Checksum: 88555FC27300951E406073568CED8A7E;1150.
 )
 
 Here is how much of LuaTeX's memory you used:
- 31779 strings out of 478824
+ 31807 strings out of 478824
  125086,1144653 words of node,token memory allocated
- 851 words of node memory still in use:
-   4 hlist, 1 vlist, 1 rule, 15 glue, 3 kern, 1 penalty, 2 glyph, 103 attribute,
- 70 glue_spec, 16 attribute_list, 2 write nodes
-   avail lists: 1:1,2:10348,3:1324,4:289,5:1371,6:153,7:8139,8:44,9:1247,10:16,1
-1:696
- 50201 multiletter control sequences out of 65536+600000
- 61 fonts using 10124431 bytes
- 128i,12n,123p,1186b,1082s stack positions out of 5000i,500n,10000p,200000b,200000s
-</usr/share/texlive/texmf-dist/fonts/opentype/public/fontawesome5/FontAwesome5Fr
-ee-Regular-400.otf><./fonts/SourceSansPro-LightIt.otf></usr/share/texlive/texmf-
-dist/fonts/opentype/public/fontawesome5/FontAwesome5Brands-Regular-400.otf></usr
-/share/texlive/texmf-dist/fonts/opentype/public/fontawesome5/FontAwesome5Free-So
-lid-900.otf><./fonts/SourceSansPro-Regular.otf><./fonts/SourceSansPro-Light.otf>
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb>
-Output written on cv.pdf (3 pages, 152507 bytes).
+ 828 words of node memory still in use:
+   4 hlist, 1 vlist, 1 rule, 14 glue, 3 kern, 1 penalty, 2 glyph, 96 attribute, 
+70 glue_spec, 15 attribute_list, 2 write nodes
+   avail lists: 1:2,2:6668,3:920,4:313,5:1293,6:168,7:8158,8:30,9:1290,10:16,11:
+668
+ 50229 multiletter control sequences out of 65536+600000
+ 67 fonts using 10671471 bytes
+ 127i,12n,123p,1190b,1082s stack positions out of 5000i,500n,10000p,200000b,200000s
+<./fonts/SourceSansPro-LightIt.otf></usr/share/texlive/texmf-dist/fonts/opentype
+/public/fontawesome5/FontAwesome5Free-Regular-400.otf><./fonts/SourceSansPro-Reg
+ular.otf></usr/share/texlive/texmf-dist/fonts/opentype/public/fontawesome5/FontA
+wesome5Brands-Regular-400.otf><./fonts/SourceSansPro-Light.otf></usr/share/texli
+ve/texmf-dist/fonts/opentype/public/fontawesome5/FontAwesome5Free-Solid-900.otf>
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/s
+hare/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
+Output written on cv.pdf (2 pages, 159279 bytes).
 
-PDF statistics: 105 PDF objects out of 1000 (max. 8388607)
- 79 compressed objects within 1 object stream
- 19 named destinations out of 1000 (max. 131072)
- 16 words of extra memory for PDF output out of 10000 (max. 100000000)
+PDF statistics: 125 PDF objects out of 1000 (max. 8388607)
+ 99 compressed objects within 1 object stream
+ 18 named destinations out of 1000 (max. 131072)
+ 96 words of extra memory for PDF output out of 10000 (max. 100000000)
 
