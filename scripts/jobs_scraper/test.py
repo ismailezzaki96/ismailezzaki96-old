@@ -1,6 +1,18 @@
+import matplotlib.pyplot as plt
+import numpy as np
 
-def is_sorted(t):
-    return not t != sorted(t)
+def factorial(x):
+    if (x>=1):
+        return x*factorial(x-1)
+    return 1
 
-t= ["1,",",3"]
-print(is_sorted(t))
+x = type(print(3))
+print("here")
+print(x)
+exit(1)
+x =np.linspace(0,12,3000)
+y = [factorial(i) for i in x]
+y =np.array(y)
+print(type(y))
+plt.plot(x,y)
+plt.show()

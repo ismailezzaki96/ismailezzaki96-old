@@ -342,17 +342,18 @@ def anapec():
     doc.add(list)
 
 
-print("alwadifa")
-alwadifa()
+#print("alwadifa")
+#alwadifa()
 print("indeed")
 indeed()
 
-#print("earaxess 1")
+print("earaxess 1")
 #euraxess("computational%20physics")
 #print("earaxess 2")
 #euraxess("%20particle%20physics")
-print("inspire")
-inspire()
+
+#print("inspire")
+#inspire()
 
 print("rekrute")
 rekrute()
